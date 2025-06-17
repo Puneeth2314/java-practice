@@ -1,0 +1,16 @@
+import java.util.Scanner
+public class main {
+public static void main (String[] args) {
+Scanner sc = new Scanner(System.in);
+System.out.print("Enter Principle: ");
+float p = sc.newFloat();
+System.out.print("Enter Rate of Interest: ");
+float r = sc.newFloat();
+System.out.print("Enter time: ");
+int t = sc.newInt();
+float si = (p*r*t)/100;
+System.out.print("Simple Interest: " +si)
+}
+
+
+
