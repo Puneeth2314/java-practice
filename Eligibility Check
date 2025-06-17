@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class Main{
+public static void main(String args[]){
+Scanner sc = new Scanner(System.in);
+System.out.print("Enter the age: ");
+int a = sc.nextInt();
+String age = (a >= 18) ? "You are eligible for vote" : "You are not elibible for vote";
+System.out.println(age);
+sc.close();
+}
+}
